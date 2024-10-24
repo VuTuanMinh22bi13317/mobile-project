@@ -32,7 +32,7 @@
             android:layout_height="19dp"
             android:layout_toEndOf="@id/profilePicture"
             android:layout_marginStart="8dp"
-            android:text="@string/Luke"
+            android:text="@string/luke"
             android:textColor="#000000"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -87,15 +87,15 @@
 
     <TextView
         android:id="@+id/mailBody"
-        android:layout_width="wrap_content"
-        android:layout_height="425dp"
+        android:layout_width="378dp"
+        android:layout_height="376dp"
         android:layout_above="@+id/actionButtons"
         android:layout_below="@id/mailContent"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="-1dp"
+        android:layout_marginTop="-6dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="95dp"
-        android:text="@string/nature"
+        android:layout_marginBottom="126dp"
+        android:text="@string/nature_photo"
         android:textColor="#000000"
         android:textSize="20sp" />
 

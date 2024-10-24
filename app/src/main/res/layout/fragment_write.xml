@@ -30,16 +30,16 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"/>
 
-        <!-- Add File button -->
+        <!-- More Options button (three dots) -->
         <ImageButton
-            android:id="@+id/add_files_button"
+            android:id="@+id/more_options_button"
             android:layout_width="29dp"
             android:layout_height="29dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="16dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/link"
-            android:contentDescription="Add File"
+            android:contentDescription="More Options"
+            android:src="@drawable/dots"
             app:tint="#000000"
             android:layout_centerVertical="true"/>
 
@@ -48,7 +48,7 @@
             android:id="@+id/send_email_button"
             android:layout_width="29dp"
             android:layout_height="29dp"
-            android:layout_toStartOf="@id/add_files_button"
+            android:layout_toStartOf="@id/more_options_button"
             android:layout_marginEnd="16dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/sending"
@@ -56,16 +56,16 @@
             app:tint="#000000"
             android:layout_centerVertical="true"/>
 
-        <!-- More Options button (three dots) -->
+        <!-- Add File button -->
         <ImageButton
-            android:id="@+id/down_arrow_button"
+            android:id="@+id/add_files_button"
             android:layout_width="29dp"
             android:layout_height="29dp"
             android:layout_toStartOf="@id/send_email_button"
             android:layout_marginEnd="16dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/dots"
-            android:contentDescription="More Options"
+            android:src="@drawable/link"
+            android:contentDescription="Add File"
             app:tint="#000000"
             android:layout_centerVertical="true"/>
 

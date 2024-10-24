@@ -36,7 +36,7 @@
             android:layout_height="19dp"
             android:layout_toEndOf="@id/profilePicture"
             android:layout_marginStart="8dp"
-            android:text="@string/Luke"
+            android:text="@string/luke"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
